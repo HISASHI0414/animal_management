@@ -41,6 +41,22 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+#追加gem
+#ページネーションの実装
+gem "kaminari"
+
+#検索とソート機能の実装
+gem "ransack"
+
+#DB構造をmodelから見やすくする
+gem "annotate"
+
+#Bootstrapの導入
+gem 'bootstrap', '~> 5.3.2'
+gem 'jquery-rails'
+gem 'bootstrap-sass'
+gem "sassc-rails"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -53,6 +69,13 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
+  #追加gem
+  #エラー画面を見やすくするgem
+  gem "better_errors"
+
+  #デバッグしやすくするgem
+  gem "binding_of_caller"
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
@@ -60,3 +83,4 @@ group :development do
   # gem "spring"
 end
 
+gem "dartsass-rails", "~> 0.5.0"

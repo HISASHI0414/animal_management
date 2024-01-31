@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   resources :owls
   resources :hedgehogs
   resources :chicks
@@ -12,4 +13,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  root to: redirect("/cats")
 end
