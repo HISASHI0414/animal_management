@@ -51,6 +51,12 @@ gem "ransack"
 #DB構造をmodelから見やすくする
 gem "annotate"
 
+#Bootstrapの導入
+gem 'bootstrap', '~> 5.3.2'
+gem 'jquery-rails'
+gem 'bootstrap-sass'
+gem "sassc-rails"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
